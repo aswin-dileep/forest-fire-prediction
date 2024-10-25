@@ -5,6 +5,12 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    background-image: url('./images/bg.jpg');
+    
+    /* Add these properties to make the image fit */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    
 }
 
 h1 {
